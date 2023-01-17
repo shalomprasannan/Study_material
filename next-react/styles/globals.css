@@ -1,0 +1,5 @@
+html, body, #__next, #__next>div {
+  height: 100%;
+  overflow: hidden;
+  background-image: linear-gradient(#49f, #4f9);
+}

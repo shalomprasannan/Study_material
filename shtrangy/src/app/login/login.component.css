@@ -1,0 +1,49 @@
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+mat-card,mat-form-field{
+  display: block;
+  width:25vw;
+  margin:auto;
+}
+mat-chip{
+  margin-right: 1em;
+}
+.img-center{
+  height:100px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+.top{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.bg{
+  filter: blur(0px);
+  height: 100%;
+  background-image: url("../../assets/pexels.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+mat-card{
+  padding-top: 5em;
+}
+
+button{
+  margin-right: 3em;
+}
