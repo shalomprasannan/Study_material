@@ -1,0 +1,92 @@
+2021-11-24T17:22:54.183Z [INFO]: Git SSH Key acquired
+2021-11-24T17:22:54.257Z [INFO]: # Cloning repository: git@github.com:shalomprasannan/launch.git
+2021-11-24T17:22:54.340Z [INFO]: Agent pid 133
+2021-11-24T17:22:54.391Z [INFO]: Identity added: /root/.ssh/git_rsa (/root/.ssh/git_rsa)
+2021-11-24T17:22:54.612Z [INFO]: Cloning into 'launch'...
+2021-11-24T17:22:54.845Z [INFO]: Warning: Permanently added the ECDSA host key for IP address '140.82.114.4' to the list of known hosts.
+2021-11-24T17:22:55.219Z [INFO]: # Switching to commit: 9c9d4e9299b8197aff78be2d46523ca1097b0e65
+2021-11-24T17:22:55.235Z [INFO]: Agent pid 146
+2021-11-24T17:22:55.235Z [INFO]: Identity added: /root/.ssh/git_rsa (/root/.ssh/git_rsa)
+                                 Note: switching to '9c9d4e9299b8197aff78be2d46523ca1097b0e65'.
+                                 You are in 'detached HEAD' state. You can look around, make experimental
+                                 changes and commit them, and you can discard any commits you make in this
+                                 state without impacting any branches by switching back to a branch.
+                                 If you want to create a new branch to retain commits you create, you may
+                                 do so (now or later) by using -c with the switch command. Example:
+                                 git switch -c <new-branch-name>
+                                 Or undo this operation with:
+                                 git switch -
+                                 Turn off this advice by setting config variable advice.detachedHead to false
+                                 HEAD is now at 9c9d4e9 Update index.css
+2021-11-24T17:22:55.241Z [INFO]: Successfully cleaned up Git credentials
+2021-11-24T17:22:55.241Z [INFO]: # Checking for Git submodules at: /codebuild/output/src548069071/src/launch/.gitmodules
+2021-11-24T17:22:55.261Z [INFO]: # Retrieving environment cache...
+2021-11-24T17:22:55.313Z [INFO]: # Retrieved environment cache
+2021-11-24T17:22:55.313Z [INFO]: ---- Setting Up SSM Secrets ----
+2021-11-24T17:22:55.313Z [INFO]: SSM params {"Path":"/amplify/d3rf79qchkdsy1/main/","WithDecryption":true}
+2021-11-24T17:22:55.342Z [WARNING]: !Failed to set up process.env.secrets
+2021-11-24T17:22:55.343Z [WARNING]: ! Unable to patch packages...
+2021-11-24T17:22:55.350Z [INFO]: # Retrieving cache...
+2021-11-24T17:22:57.827Z [INFO]: # Extracting cache...
+2021-11-24T17:23:04.236Z [INFO]: # Extraction completed
+2021-11-24T17:23:16.449Z [INFO]: ## Starting Backend Build
+                                 ## Checking for associated backend environment...
+2021-11-24T17:23:16.451Z [INFO]: ## No backend environment association found, continuing...
+                                 ## Completed Backend Build
+                                 ## Starting Frontend Build
+                                 # Starting phase: preBuild
+                                 # Executing command: npm ci
+2021-11-24T17:23:17.112Z [WARNING]: npm
+2021-11-24T17:23:17.113Z [WARNING]: WARN prepare removing existing node_modules/ before installation
+2021-11-24T17:23:32.102Z [INFO]: > core-js@2.6.12 postinstall /codebuild/output/src548069071/src/launch/node_modules/babel-runtime/node_modules/core-js
+                                 > node -e "try{require('./postinstall')}catch(e){}"
+2021-11-24T17:23:32.145Z [INFO]: [96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+                                 [96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+                                 [96m>[94m https://opencollective.com/core-js [0m
+                                 [96m>[94m https://www.patreon.com/zloirock [0m
+                                 [96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+2021-11-24T17:23:32.175Z [INFO]: > ejs@2.7.4 postinstall /codebuild/output/src548069071/src/launch/node_modules/ejs
+                                 > node ./postinstall.js
+2021-11-24T17:23:32.211Z [INFO]: Thank you for installing [35mEJS[0m: built with the [32mJake[0m JavaScript build tool ([32mhttps://jakejs.com/[0m)
+2021-11-24T17:23:32.379Z [INFO]: > fsevents@1.2.13 install /codebuild/output/src548069071/src/launch/node_modules/webpack-dev-server/node_modules/fsevents
+                                 > node install.js
+2021-11-24T17:23:32.416Z [INFO]: 
+2021-11-24T17:23:32.417Z [INFO]: Skipping 'fsevents' build as platform linux is not supported
+2021-11-24T17:23:32.447Z [INFO]: > fsevents@1.2.13 install /codebuild/output/src548069071/src/launch/node_modules/watchpack-chokidar2/node_modules/fsevents
+                                 > node install.js
+2021-11-24T17:23:32.483Z [INFO]: 
+2021-11-24T17:23:32.484Z [INFO]: Skipping 'fsevents' build as platform linux is not supported
+2021-11-24T17:23:32.630Z [INFO]: > core-js@3.19.1 postinstall /codebuild/output/src548069071/src/launch/node_modules/core-js
+                                 > node -e "try{require('./postinstall')}catch(e){}"
+2021-11-24T17:23:32.698Z [INFO]: [96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+                                 [96mThe project needs your help! Please consider supporting of core-js:[0m
+                                 [96m>[94m https://opencollective.com/core-js [0m
+                                 [96m>[94m https://patreon.com/zloirock [0m
+                                 [96m>[94m https://paypal.me/zloirock [0m
+                                 [96m>[94m bitcoin: bc1qlea7544qtsmj2rayg0lthvza9fau63ux0fstcz [0m
+                                 [96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+2021-11-24T17:23:33.032Z [INFO]: > core-js-pure@3.19.1 postinstall /codebuild/output/src548069071/src/launch/node_modules/core-js-pure
+                                 > node -e "try{require('./postinstall')}catch(e){}"
+2021-11-24T17:23:33.168Z [INFO]: added 1953 packages in 16.074s
+2021-11-24T17:23:33.181Z [INFO]: # Completed phase: preBuild
+                                 # Starting phase: build
+                                 # Completed phase: build
+2021-11-24T17:23:33.182Z [INFO]: ## Completed Frontend Build
+2021-11-24T17:23:33.182Z [INFO]: ## Build completed successfully
+2021-11-24T17:23:33.183Z [INFO]: # Starting caching...
+2021-11-24T17:23:33.258Z [INFO]: # Creating cache artifact...
+2021-11-24T17:23:44.640Z [INFO]: # Cache artifact is: 247MB
+2021-11-24T17:23:44.709Z [INFO]: # Uploading cache artifact...
+2021-11-24T17:23:47.712Z [INFO]: # Caching completed
+2021-11-24T17:23:47.793Z [INFO]: No custom headers found.
+2021-11-24T17:23:47.809Z [WARNING]: !! No index.html detected in deploy folder: /codebuild/output/src548069071/src/launch/
+2021-11-24T17:23:47.809Z [INFO]: # Starting build artifact upload process...
+2021-11-24T17:24:05.579Z [INFO]: # Build artifact is: 0MB
+2021-11-24T17:24:05.581Z [INFO]: # Build artifact is: 0MB
+2021-11-24T17:24:05.581Z [INFO]: # Uploading build artifact '__artifacts.zip'...
+2021-11-24T17:24:05.679Z [INFO]: # Uploading build artifact '__artifactsHash.zip'...
+2021-11-24T17:24:05.790Z [INFO]: # Build artifact upload completed
+2021-11-24T17:24:05.791Z [INFO]: # Starting environment caching...
+2021-11-24T17:24:05.791Z [INFO]: # Uploading environment cache artifact...
+2021-11-24T17:24:05.864Z [INFO]: # Environment caching completed
+Terminating logging...
